@@ -10,6 +10,8 @@ header {
 	position: fixed;
 	display: flex;
 	padding: 0 24px;
+	background-color: yellow;
+	z-index: 2;
 }
 
 header .logo, header .sign-in {
@@ -42,4 +44,52 @@ header .logo, header .sign-in {
 main {
 	position: absolute;
 	top: 64px;
+}
+
+/* Starting section */
+
+#starting-page {
+	background-color: yellowgreen;
+	width: 100%;
+	padding: 32px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#starting-page img, #starting-page div {
+	display: inline-block;
+}
+
+#starting-page img {
+	width: 48.5%;
+	margin: 24px;
+}
+
+#starting-page div {
+	display: inline-block;
+	align-items: center;
+	width: 48.5%;
+}
+
+#starting-page h2 {
+	font-size: 50px;
+}
+
+#starting-page h4 {
+	font-size: 22.5px;
+}
+
+#starting-page .button {
+	background-color: black;
+	padding: 8px 0;
+	display: flex;
+	justify-content: center;
+	width: 40%;
+}
+
+#starting-page .button p {
+	margin: auto;
+	font-size: 22px;
+	color: white;
 }
