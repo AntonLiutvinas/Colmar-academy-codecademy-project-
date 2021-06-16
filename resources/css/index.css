@@ -1,5 +1,19 @@
+/* General styles */
+
 body {
 	margin: 0;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+h4 {
+	font-size: 22.5px;
+}
+
+h5 {
+	font-size: 19px;
 }
 
 /* Header section */
@@ -92,4 +106,45 @@ main {
 	margin: auto;
 	font-size: 22px;
 	color: white;
+}
+
+/* Practicing */
+
+#practicing {
+	width: 100%;
+	background-color: seagreen;
+	display: flex;
+	justify-content: space-between;
+}
+
+#practicing .practice {
+	padding: 32px 24px;
+	width: 60%;
+}
+
+#practicing .practice img {
+	width: 50%;
+}
+
+#practicing .practice2 {
+	width: 30%;
+}
+
+#practicing .practice2 .flex {
+	display: flex;
+	padding: 16px;
+	background-color: white;
+	align-items: center;
+}
+
+#practicing .practice2 img {
+	width: 35%;
+}
+
+#practicing .practice2 .text-div {
+	width: 65%;
+}
+
+#practicing .practice2 .text-div * {
+	margin: 8px;
 }
