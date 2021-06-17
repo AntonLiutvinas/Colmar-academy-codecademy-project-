@@ -148,3 +148,44 @@ main {
 #practicing .practice2 .text-div * {
 	margin: 8px;
 }
+
+/* learning section */
+
+#learning {
+	padding: 32px 72px;
+	background-color: gray;
+}
+
+#learning h2 {
+	text-align: center;
+}
+
+#learning .wrap {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#learning .box {
+	width: 30%;
+	margin: 16px;
+	background-color: white;
+}
+
+#learning .box img {
+	width: 100%;
+	margin: 0 0 16px 0;
+}
+
+.course {
+	margin: 8px 0 8px 16px;
+}
+
+.box p, .box h5 {
+	margin-left: 16px;
+}
+
+.box h5 {
+	margin: 0 0 0 16px;
+}
