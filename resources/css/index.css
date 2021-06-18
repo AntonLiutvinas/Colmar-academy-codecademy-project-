@@ -189,3 +189,79 @@ main {
 .box h5 {
 	margin: 0 0 0 16px;
 }
+
+/* Thesis-exhibit */
+
+#thesis-exhibit {
+	width: fit-content;
+	background-color: lightblue;
+	padding: 32px 0 32px 24px;
+}
+
+#thesis-exhibit	.flexing {
+	display: flex;
+	width: inherit;
+	justify-content: space-between;
+}
+
+#thesis-exhibit h2 {
+	text-align: center;
+}
+
+#thesis-exhibit .video {
+	max-width: 60%;
+}
+
+#thesis-exhibit .video video {
+	width: 90%;
+	margin-right: 24px;
+	margin-bottom: 24px;
+}
+
+#thesis-exhibit .video p, #thesis-exhibit .video h5 {
+	width: 50%;
+	margin: 0;
+}
+
+#thesis-exhibit .video p {
+	margin-top: 8px;
+}
+
+#thesis-exhibit .thesis-product {
+	width: 30%;
+	background-color: white;
+}
+
+#thesis-exhibit .thesis-product .flexior {
+	display: flex;
+	align-items: center;
+}
+
+#thesis-exhibit .thesis-product img {
+	height: auto;
+	width: 35%;
+	margin: 16px;
+}
+
+/* Footer */
+
+footer {
+	width: 100%;
+	height: 64px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer div {
+	display: flex;
+}
+
+.rights {
+	margin: 0 0 0 24px;
+}
+
+.privacy {
+	margin-right: 24px;
+	margin-left: 12px;
+}
