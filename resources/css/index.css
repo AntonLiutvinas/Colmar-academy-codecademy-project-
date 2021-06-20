@@ -71,7 +71,6 @@ main {
 /* Starting section */
 
 #starting-page {
-	background-color: #48CCF0;
 	background-color: #283059;
 	width: 100%;
 	padding: 32px 0;
@@ -209,7 +208,7 @@ main {
 
 #learning {
 	padding: 32px 72px;
-	background-color: #FFA900;
+	background-color: #283059;
 }
 
 #learning h2 {
@@ -229,7 +228,7 @@ main {
 #learning .box {
 	width: 30%;
 	margin: 16px;
-	background-color: #0cbbf0d1;
+	background-color: #F0B80C;
 	font-family: 'DM Sans', sans-serif;
 	color: white;
 }
@@ -241,7 +240,7 @@ main {
 
 .course {
 	margin: 15px 0 8px 16px;
-	color: yellow;
+	color: red;
 }
 
 .box p, .box h5 {
