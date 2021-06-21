@@ -77,7 +77,7 @@ main {
 	top: 64px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px) {
 	.sign-in .computer {
 		display: none;
 	}
@@ -161,7 +161,7 @@ main {
 	font-weight: 600;
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 1210px) {
 	#starting-page {
 		flex-direction: column;
 		padding: 0;
@@ -216,8 +216,7 @@ main {
 #practicing .practice2 {
 	width: 100%;
 	display: flex;
-	flex-direction: row;
-	
+	flex-direction: row;	
 }
 
 #practicing .practice2 .flex {
@@ -258,13 +257,41 @@ main {
 	color: yellow;
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1650px) {
 	#practicing .practice {
 		display: none;
 	}
+
+	#practicing .practice2 .flex h5 {
+		font-size: 40px;
+	}
+
+	#practicing .practice2 .flex p {
+		font-size: 33px;
+	}
+
+	#starting-page h2 {
+		font-size: 58px;
+	}
+
+	#starting-page h4 {
+		font-size: 35px;
+	}
+
+	#starting-page .button p {
+		font-size: 32px;
+	}
+
+	#learning h2 {
+		font-size: 58px;
+	}
+
+	#thesis-exhibit h2 {
+		font-size: 58px;
+	}
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1400px) {
 	#practicing .practice2 {
 		flex-direction: column;
 		flex-wrap: wrap-reverse;
@@ -292,7 +319,7 @@ main {
 	}
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 1130px) {
 	#practicing .practice {
 		display: none;
 	}
@@ -350,7 +377,7 @@ main {
 	margin: 0 0 0 16px;
 }
 
-@media only screen and (max-width: 1225px) {
+@media only screen and (max-width: 1425px) {
 	#learning {
 		padding: 16px 0 16px 0;
 	}
@@ -360,13 +387,13 @@ main {
 	}
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1275px) {
 	#learning .box {
 		margin: 12px;
 	}
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1010px) {
 	#learning .computer {
 		display: none;
 	}
@@ -384,7 +411,7 @@ main {
 		color: white;
 		font-family: 'DM Sans', sans-serif;
 		font-weight: 600;
-		font-size: 22.5px;
+		font-size: 30px;
 		padding: 22.5px;
 		width: 80%;
 		margin: 15px auto;
@@ -469,15 +496,23 @@ main {
 	margin: 16px;
 }
 
-@media only screen and (max-width: 1310px) {
+@media only screen and (max-width: 1410px) {
 	#thesis-exhibit .video p, #thesis-exhibit .video h5 {
 		display: none;
 	}
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1160px) {
 	#thesis-exhibit .thesis-product {
 		flex-direction: column;
+	}
+
+	#thesis-exhibit .thesis-product h5 {
+		font-size: 40px;
+	}
+
+	#thesis-exhibit .thesis-product p {
+		font-size: 33px;
 	}
 }
 
@@ -507,8 +542,12 @@ footer div {
 	margin-left: 12px;
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 1160px) {
 	.terms, .privacy {
 		display: none;
+	}
+
+	.rights {
+		font-size: 26px;
 	}
 }
