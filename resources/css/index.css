@@ -77,21 +77,28 @@ main {
 	top: 64px;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1250px) {
 	.sign-in .computer {
 		display: none;
+		width: fit-content;
 	}
 
 	.mobile {
 		display: flex;
 		align-items: center;
 		height: 100%;
-		margin: 0 24px 0 0;
+		margin: 0 30px 0 0;
+		justify-content: flex-end;
 	}
 
 	.mobile img {
 		height: 32px;
 		margin: 0 16px;
+	}
+
+	header .logo * {
+		font-size: 26px;
+		margin: 0;
 	}
 }
 
