@@ -16,7 +16,13 @@ h5 {
 	font-size: 19px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+.mobile {
+	display: none;
+}
+
+#starting-page .mobile {
+	display: none;
+}
 
 /* Header section */
 
@@ -28,16 +34,18 @@ header {
 	padding: 0 24px;
 	background-color: white;
 	z-index: 2;
+	justify-content: space-between;
 }
 
 header .logo, header .sign-in {
-	min-width: 49%;
+	min-width: 30%;
 	height: 64px;
 	font-family: 'Poppins', sans-serif;
 }
 
 header .logo * {
 	font-size: 20px;
+	margin: 0;
 }
 
 .logo {
@@ -54,6 +62,7 @@ header .logo * {
 	align-items: center;
 	height: 64px;
 	justify-content: flex-end;
+	padding: 0 48px 0 0;
 	margin: 0;
 }
 
@@ -66,6 +75,24 @@ header .logo * {
 main {
 	position: absolute;
 	top: 64px;
+}
+
+@media only screen and (max-width: 750px) {
+	.sign-in .computer {
+		display: none;
+	}
+
+	.mobile {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		margin: 0 24px 0 0;
+	}
+
+	.mobile img {
+		height: 32px;
+		margin: 0 16px;
+	}
 }
 
 /* Starting section */
@@ -134,6 +161,29 @@ main {
 	font-weight: 600;
 }
 
+@media only screen and (max-width: 1010px) {
+	#starting-page {
+		flex-direction: column;
+		padding: 0;
+	}
+
+	#starting-page img.computer {
+		display: none;
+	}
+
+	#starting-page .text {
+		margin: 0;
+	}
+
+	#starting-page .flex-par {
+		width: 100%;
+	}
+
+	#starting-page .mobile {
+		display: block;
+	}
+}
+
 /* Practicing */
 
 #practicing {
@@ -144,14 +194,18 @@ main {
 }
 
 #practicing .practice {
-	padding: 32px 24px;
-	width: 97.5%;
+	width: 98%;
 	color: white;
 	opacity: 0.9;
 	font-family: 'Fira Sans', sans-serif;
 	display: flex;
 	text-align: center;
 	align-items: center;
+	padding: 32px 12px 32px 0;
+}
+
+#practicing .practice div {
+	padding: 32px;
 }
 
 #practicing .practice img {
@@ -204,6 +258,51 @@ main {
 	color: yellow;
 }
 
+@media only screen and (max-width: 1250px) {
+	#practicing .practice {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	#practicing .practice2 {
+		flex-direction: column;
+		flex-wrap: wrap-reverse;
+		display: inline-flex;
+	}
+
+	#practicing .practice2 .flex {
+		width: 100%;
+	}
+
+	#practicing .practice {
+		display: inline-flex;
+	}
+
+	#practicing .practice img {
+		display: none;
+	}
+
+	#practicing {
+		flex-direction: row;
+	}
+
+	.shortened {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	#practicing .practice {
+		display: none;
+	}
+
+	#practicing .practice2 .flex img {
+		margin-left: 35px;
+		width: 25%;
+	}
+}
+
 /* learning section */
 
 #learning {
@@ -249,6 +348,48 @@ main {
 
 .box h5 {
 	margin: 0 0 0 16px;
+}
+
+@media only screen and (max-width: 1125px) {
+	#learning {
+		padding: 16px 0 16px 0;
+	}
+
+	#learning h2 {
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 975px) {
+	#learning .box {
+		margin: 12px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#learning .computer {
+		display: none;
+	}
+
+	#learning .mobile {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0;
+	}
+
+	#learning .mobile p {
+		background-color: #F0B80C;
+		text-align: center;
+		color: white;
+		font-family: 'DM Sans', sans-serif;
+		font-weight: 600;
+		font-size: 22.5px;
+		padding: 22.5px;
+		width: 80%;
+		margin: 15px auto;
+		border-radius: 2.5%;
+	}
 }
 
 /* Thesis-exhibit */
@@ -328,6 +469,18 @@ main {
 	margin: 16px;
 }
 
+@media only screen and (max-width: 1210px) {
+	#thesis-exhibit .video p, #thesis-exhibit .video h5 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	#thesis-exhibit .thesis-product {
+		flex-direction: column;
+	}
+}
+
 /* Footer */
 
 footer {
@@ -352,4 +505,10 @@ footer div {
 .privacy {
 	margin-right: 24px;
 	margin-left: 12px;
+}
+
+@media only screen and (max-width: 560px) {
+	.terms, .privacy {
+		display: none;
+	}
 }
